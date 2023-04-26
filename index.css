@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.heading {
+  background-color: #3399cc;
+  width: 100%;
+  padding: 25px 7px 25px 30px;
+}
+
+p {
+  font-size: 54px;
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+  padding: 0px 0px 0px 0px;
+}
+
+.navbar ul {
+  padding: 8px 0px 8px 0px;
+
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding-left: 29px;
+}
+
+#add-contect-box {
+  box-shadow: 0px 20px 50px 2px grey
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.navbar ul li:last-child {
+  float: right;
+  padding-right: 30px;
+}
+
+/* a:focus{
+  background:olive;
+} */
+
+#btn-add-details:hover{
+  background-color: #d9f238;
+  color: black;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  transform: scale(1.1);
+  margin-left: -18px;
+  margin-right: -18px;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+}
+
+.left-container {
+  width: 30%;
+}
+
+h4{
+  font-family: sans-serif;
+}
+#contectbody {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.select-body {
+  border: 1px solid black;
+  padding-left: 12px;
+}
+.element_name{
+  font-size: 31px;
+}
+.element_email{
+  font-size: 15px;
+}
+
+.element_number{
+  font-size: 15px;
+}
+
+.active{
+background-color: #d2ebf8
+}
+
+.left-container-contects {
+  margin-top: 22px;
+  margin-left: 32px;
+  padding-right: 31px;
+}
+
+#contects-details {
+  margin-top: 18px;
+  border: 1px solid rgb(97, 96, 96);
+  height: 86%;
+  cursor: pointer;
+}
+
+.table-data {
+  cursor: pointer;
+}
+
+
+.right-container {
+  width: 70%;
+}
+
+#add-contect-box {
+  width: 80%;
+  margin-top: 20px;
+  padding-top: 15px;
+  border: 1px solid black;
+  height: 100%;
+  margin-left: 8%;
+}
+
+label {
+  margin-left: 25px;
+}
+
+ .lbl::after { 
+  content: "*";
+  color: red;
+}
+
+.lbl-landline::after { 
+  content: "*";
+  color: red;
+}
+.partation{
+  display: flex;
+  }
+  .partation_part{
+    width: 40%;
+  }
+
+.lbl-landline {
+  margin-left: 32%;
+}
+
+#landlineValidationMessage {
+  margin-left: 7%;
+}
+
+input,
+textarea {
+  margin-left: 25px;
+  border: 1px solid black;
+  width: 76%;
+  margin-top: 3px;
+
+}
+
+input[type=text] {
+  width: 76%;
+  height: 34px;
+}
+
+#number {
+  width: 90%;
+}
+
+#landline {
+  width: 90%;
+}
+.cancle{
+      /* height: 7%; */
+      width: 16%;
+      height: 7%;
+      /* float: right; */
+      margin-top: 15px;
+      margin-left: 3%;
+      cursor: pointer;
+      background-color: #cf5656;
+      text-align: center;
+      color: wheat;
+}
+
+#btnadd {
+  background-color: #268926;
+  width: 18%;
+  height: 36px;
+  float: right;
+  margin-top: 14px;
+  margin-right: 24px;
+  cursor: pointer;
+  color: wheat;
+}
+
+.right-container-sub-part {
+  width: 26%;
+  display: inline-flex;
+}
+
+#right-container-sub-part {
+  display: inline-flex;
+}
+
+#show-details {
+  width: 31%;
+  margin-top: 21px;
+  margin-top: 23px;
+  margin-left: 10%;
+}
+
+.all-details {
+  list-style-type: none;
+}
+
+.img-edit {
+  height: 17px;
+}
+
+.img-delete {
+  height: 23px
+}
+
+a {
+  text-decoration: none;
+}
+
+.edit-link,
+.delete-link {
+  margin-top: 32px;
+  margin-left: 31px;
+}
+.btn-edit,.btn-delete
+{
+    margin-left: 4px;
+}
+
+.edit-link ul {
+  display: inline-flex;
+}
+
+.delete-link ul {
+  display: inline-flex;
+}
+
+div ul li {
+  list-style-type: none;
+}
+
+/* validation */
+.validationMessage_hideContent {
+  color: red;
+
+}
+
